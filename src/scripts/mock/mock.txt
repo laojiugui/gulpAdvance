@@ -1,0 +1,11 @@
+module.exports={
+	rules:[
+		{
+			"pattern":/queryList/,
+			"respondwith":"list.json"
+		},{
+			"pattern":/queryData/,
+			"respondwith":"data.json"
+		}
+	]
+}

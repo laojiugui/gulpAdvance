@@ -1,0 +1,13 @@
+$buttonBg:red;
+.swiper-slide1{
+	button{
+		background:$buttonBg;
+		height:20%;
+	}
+	p{
+		-align:center;
+		font-size:50px;
+		font-weight:800;
+		color:gray;							
+	}
+}

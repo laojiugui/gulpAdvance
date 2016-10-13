@@ -1,0 +1,10 @@
+@chartset "utf-8";
+
+//sass的入口文件
+
+@import "./components/swiper/swiper.min";
+@import "./components/swiper/animate.min";
+@import "./components/iscroll/iscroll";
+
+@import "./swiper";
+@import "./stiles";
