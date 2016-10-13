@@ -1,6 +1,5 @@
     body {
         font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-        font-size: 14px;
         color:#000;
         margin: 0;
         padding: 0;
@@ -23,34 +22,21 @@
         -ms-flex-pack: center;
         -webkit-justify-content: center;
         justify-content: center;
-
-
-        /*-webkit-box-align: center;
+        
+        -webkit-box-align: center;
         -ms-flex-align: center;
         -webkit-align-items: center;
-        align-items: center;*/
-
-        
+        align-items: center;             
     }
     .swiper-slide1{
         background: url("../images/bg.jpg") no-repeat center;
-        filter:alpha(opacity=50);   
-        -moz-opacity:0.8;   
-        -khtml-opacity: 0.8;   
-        opacity: 0.8;  
-
+        filter:alpha(opacity=50);
+        -moz-opacity:0.6;   
+        -khtml-opacity: 0.6;   
+        opacity: 0.6;              
     }
     .swiper-slide2{
         background: url("../images/bgo.jpg") no-repeat center;
-        filter:alpha(opacity=50);   
-        -moz-opacity:0.6;   
-        -khtml-opacity: 0.6;   
-        opacity: 0.6;  
+        filter:alpha(opacity=50);         
     }
-    .swiper-slide3{
-        background: url("../images/bgt.jpg") no-repeat center;
-        filter:alpha(opacity=50);   
-        -moz-opacity:0.8;   
-        -khtml-opacity: 0.8;   
-        opacity: 0.8;  
-    }
+    

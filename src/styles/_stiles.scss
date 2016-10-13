@@ -1,13 +1,57 @@
 $buttonBg:red;
+swiper-container{
+	position:relative;
+}
 .swiper-slide1{
-	button{
-		background:$buttonBg;
-		height:20%;
-	}
+	
 	p{
-		-align:center;
+
+		
 		font-size:50px;
 		font-weight:800;
 		color:gray;							
+	}
+
+	div{
+		position:absolute;
+		left:80%;
+		top:1%;
+		
+			width:20%;
+			height:10%;			
+			background:url("../images/music.png") no-repeat center;
+			animation: mv 20s infinite linear;
+			-webkit-animation: mv 2s infinite linear;
+			-moz-animation:  mv 2s infinite linear;
+			-ms-animation:  mv 2s infinite linear;
+		
+	}
+
+}
+
+            @keyframes mv{
+				from{transform: rotateZ(0deg);}
+				to{transform: rotateZ(360deg);}
+			}
+			@-webkit-keyframes mv{
+				from{transform: rotateZ(0deg);}
+				to{transform: rotateZ(360deg);}
+			}
+			@-moz-keyframes mv{
+				from{transform: rotateZ(0deg);}
+				to{transform: rotateZ(360deg);}
+			}
+			@-ms-keyframes mv{
+				from{transform: rotateZ(0deg);}
+				to{transform: rotateZ(360deg);}
+			}
+
+
+
+.swiper-slide2{
+	button{
+		background:$buttonBg;
+		height:10%;
+		border-radius:50%;
 	}
 }
